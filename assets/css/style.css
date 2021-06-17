@@ -148,3 +148,17 @@ h1 {
 .texto {
     margin-bottom: 35px;
 }
+
+.icone {
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.icone:hover {
+    background-color: #eee;
+}
