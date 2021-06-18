@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="active" href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </div>
+    <div class="all">
+        <div class="interno">
+            <div class="maisinterno">
+                <h1>Entre em contato comigo</h1>
+
+                <form class="formulario">
+                    <label for="nome">Nome</label><br>
+                    <input type="text" id="nome" onkeyup="validaNome()">
+                    <div id="txtNome"></div>
+                    <br>
+
+                    <label for="email">E-mail</label><br>
+                    <input type="email" id="email" onkeyup="validaEmail()">
+                    <div id="txtEmail"></div>
+                    <br>
+
+                    <label for="descricao">O que você deseja dizer</label><br>
+                    <textarea name="descricao" id="descricao" cols="60" rows="5" placeholder="texto..." onkeyup="validaDescricao()"></textarea>
+                    <div id="txtDescricao"></div>
+                    <br>
+
+                    <button class="botao" id="enviar" onclick="enviarDados()">Enviar</button>
+
+                </form>
+                <h2>Endereço fictício</h2>
+                <p>Rua Salvador de Medeiros 145 - São Miguel Paulista</p>
+                <p>São Paulo - SP</p>
+
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.1510882178964!2d-46.44536678538572!3d-23.491066864884395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce617cb69fd0cb%3A0x5053a1afb2d83bd2!2sR.%20Salvador%20de%20Medeiros%2C%20145%20-%20S%C3%A3o%20Miguel%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008010-020!5e0!3m2!1spt-BR!2sbr!4v1623855356259!5m2!1spt-BR!2sbr"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" id="mapa" onmousemove="mapaZoom()" onmouseout="mapaNormal()"></iframe>
+            <footer>
+                <hr>
+
+                <a href="https://www.linkedin.com/in/antonio-lucas-2a7327183/" target="_blank">
+                    <img class="icone" src="assets/img/linkedin.png" alt="">
+                </a>
+                <a href="https://github.com/AntLucas" target="_blank">
+                    <img class="icone" src="assets/img/github.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/ant_luc/" target="_blank">
+                    <img class="icone" src="assets/img/instagram.png" alt="">
+                </a>
+
+            </footer>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
