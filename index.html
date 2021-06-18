@@ -42,27 +42,27 @@
                 <h2 class="center">Projetos</h2>
 
                 <div class="row">
-                    <div class="neoservice" style="width: 288px; ">
-                        <img src="assets/img/neoservice.png " alt=" " height="300px " width="300px ">
+                    <div class="neoservice" style="width: 288px; " onmousemove="neoHover()" onmouseout="neoOut()">
+                        <img id="imgNeo" src="assets/img/neoservice.png " alt=" " height="300px " width="300px ">
                         <div>
                             <div class="texto">
-                                <h4>Neoservice</h4>
-                                <p>Projeto desenvolvido com o intuito de auxiliar o contato entre empresas e candidatos a empregos em trabalhos temporário.</p>
+                                <h4 id="neoh4">Neoservice</h4>
+                                <p id="neop">Projeto desenvolvido com o intuito de auxiliar o contato entre empresas e candidatos a empregos em trabalhos temporário.</p>
                             </div>
                             <div>
-                                <a class="botao" href="https://neo-service.000webhostapp.com/" target="_blank " class="btn btn-dark text-uppercase w-100 ">Visitar</a>
+                                <a id="neobot" class="botao" href="https://neo-service.000webhostapp.com/" target="_blank " class="btn btn-dark text-uppercase w-100 ">Visitar</a>
                             </div>
                         </div>
                     </div>
-                    <div class="askmarinho" style="width: 288px; ">
-                        <img src="assets/img/askmarinho.jpeg" alt=" " height="300px " width="300px ">
+                    <div class="askmarinho" style="width: 288px;" onmousemove="askHover()" onmouseout="askOut()">
+                        <img id="imgAsk" src="assets/img/askmarinho.jpeg" alt=" " height="300px " width="300px ">
                         <div>
 
-                            <h4>AskMarinho</h4>
-                            <p>Projeto desenvolvido em cima de um dos problemas sociais da ONU a fim de deixar a população mais educada com conteúdos relacionados a educação sexual.</p>
+                            <h4 id="askh4">AskMarinho</h4>
+                            <p id="askp">Projeto desenvolvido em cima de um dos problemas sociais da ONU a fim de deixar a população mais educada com conteúdos relacionados a educação sexual.</p>
 
                             <div>
-                                <a class="botao" href="https://askmarinho.herokuapp.com/" target="_blank " class="btn btn-dark text-uppercase w-100 ">Visitar</a>
+                                <a id="askbot" class="botao" href="https://askmarinho.herokuapp.com/" target="_blank " class="btn btn-dark text-uppercase w-100 ">Visitar</a>
                             </div>
                         </div>
                     </div>
@@ -86,6 +86,7 @@
             </footer>
         </div>
     </div>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
